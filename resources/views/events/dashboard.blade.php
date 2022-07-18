@@ -24,7 +24,7 @@
                     <td scropt="row"> {{ $loop->index + 1 }}</td>
                     <td><a href="/events/{{ $event->id }}">{{ $event->title }}</a></td>
                     <td>0</td>
-                    <td><a href="#">Editar</a><a href="#">Editar</a></td>
+                    <td><a href="#">Editar</a><a href="#">Deletar</a></td>
                 </tr>
             @endforeach
         </tbody>
